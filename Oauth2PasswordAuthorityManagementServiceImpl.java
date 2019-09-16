@@ -43,6 +43,8 @@ public class Oauth2PasswordAuthorityManagementServiceImpl
 		mapper.configure(Feature.ALLOW_UNQUOTED_CONTROL_CHARS, true);
 		mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
 	}
+	
+	// 这是一个测试注释
 
 	@Resource(name = "redisTemplate4Json")
 	private RedisTemplate<String, Object> redisTemplate;
