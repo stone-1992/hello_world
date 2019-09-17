@@ -27,7 +27,6 @@ import java.util.*;
  * password 密码模式
  * 
  * @title
- * @author 龚进
  * @date 2019年5月23日
  * @version 1.0
  */
@@ -44,8 +43,7 @@ public class Oauth2PasswordAuthorityManagementServiceImpl
 		mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
 	}
 	
-	// 这是一个测试注释
-
+	
 	@Resource(name = "redisTemplate4Json")
 	private RedisTemplate<String, Object> redisTemplate;
 	
